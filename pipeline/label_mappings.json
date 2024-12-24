@@ -1,0 +1,52 @@
+{
+    "fake_news_corpus": {
+        "unreliable": "False",
+        "fake": "False",
+        "clickbait": "False",
+        "conspiracy": "False",
+        "reliable": "True",
+        "bias": "Unknown",
+        "hate": "False",
+        "junksci": "False",
+        "political": "Unknown",
+        "unknown": "Unknown",
+        "nan": "Unknown"
+    },
+    "fa_kes": {
+        "true": "True",
+        "authentic": "True",
+        "fake": "False"
+    },
+    "benjamin_political_news": {
+        "real": "True",
+        "satire": "False",
+        "fake": "False",
+        "true": "True"
+    },
+    "isot_fake_news": {
+        "true": "True",
+        "fake": "False"
+    },
+    "celebrity": {
+        "legit": "True",
+        "fake": "False"
+    },
+    "ct_fan": {
+        "partially false": "False",
+        "false": "False",
+        "other": "Unknown",
+        "true": "True"
+    },
+    "fakenewsamt": {
+        "fake": "False",
+        "true": "True"
+    },
+    "banfakenews": {
+        "fake": "False",
+        "authentic": "True"
+    },
+    "ti_cnn": {
+        "fake": "False",
+        "real": "True"
+    }
+}
