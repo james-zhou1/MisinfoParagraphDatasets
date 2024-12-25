@@ -1,38 +1,25 @@
-0_generating.ipynb
-1_pipeline.ipynb
-2_flag.ipynb
+#   Analysis
+- 0_generating.ipynb: This is the script that generates the analysis for the dataset.
+- 1_planning.ipynb: This is the script that plans the analysis for the dataset.
+- 1_preparing.ipynb: This is the script that prepares the analysis for the dataset. 
 
-planning.ipynb: figures out the column space between the two datasets.
-pipeline.
+#   Datasets
+- 0_data.csv: This is the full dataset.
+- 1_data_paragraph.csv: This is the paragraph dataset.
+- 2_data_paragraph_veracity.csv: This is the paragraph dataset with veracity mappings.
+- 3_data_paragraph_veracity_prepared.csv: This is the paragraph dataset with veracity mappings and prepared with the preprocessing script.
+- 4_data_paragraph_veracity_prepared_flagged.csv: This is the paragraph dataset with veracity mappings and prepared and flagged with the flagging script.
 
-Preparing, i believe this is changing the name of label to the name of veracity and then creating mapping counts or something.
+#   Pipeline
+- 0_pipeline.ipynb: This converts the full dataset into the paragraph dataset.
+- 1_mapping.ipynb: This converts the paragraph dataset into having veracity mappings.
+- 2_preprocessing.ipynb: This prepares the paragraph dataset into being in the right order.
+- 3_flagging.ipynb: This adds the paragraph flag to the paragraph dataset.
 
-Step 0: Loading in the data
-Step 1: Filtering for paragraph data
-Step 2: Filling the veracity for labels
-Step 3: Preparing the data
-Step 4: Flagging the data?
+#   Intended Usage
+- To generate the datasets, run the pipeline scripts in order. The assumption is that you have the all_data.csv file in the datasets directory as o_data.csv.
+- The final version of the dataset is 4_data_paragraph_veracity_prepared_flagged.csv. This is the dataset that will be eventually merged with the claims dataset.
 
-Datasets:
-0_data.csv
-1_data_paragraph.csv
-2_data_paragraph_veracity.csv
-3_data_paragraph_veracity_prepared.csv
-4_data_paragraph_veracity_prepared_flagged.csv
- 
-Scripts:
-0_pipeline.ipynb: This converts the full dataset into the paragraph dataset
-1_mapping.ipynb: This converts the paragraph dataset into having veracity mappings.
-2_misinfo_scipts: This will prepare the paragraph dataset into being in the right order.
-3_flagging.ipynb: This will flag the paragraph dataset so it is ready to be added to the claims dataset.
-
-Pipeline (modification scripts)
-0_pipeline.ipynb: This requires you take some code from the pipeline.ipynb file
-1_mapping.ipynb: This requires you to take some code from the pipeline.ipynb file
-2_misinfo_scripts: Just take the preprocessing code
-3_flagging.ipynb: Just take the flagging.ipynb file
-
-Analysis (analysis scripts)
-0_generating.ipynb
-1_planning.ipynb
-1_preparing.ipynb
+#   Future Work
+- Once the claims dataset is ready to be merged, I will take the 4_data_paragraph_veracity_prepared_flagged.csv file and merge it with the claims dataset.
+- This will likely take place directly in HF.
