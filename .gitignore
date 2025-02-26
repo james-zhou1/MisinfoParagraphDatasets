@@ -1,5 +1,6 @@
 # Data files
 *.csv
+*.parquet
 
 # Jupyter Notebook
 .ipynb_checkpoints

@@ -2,11 +2,11 @@
     "fake_news_corpus": {
         "unreliable": "False",
         "fake": "False",
-        "clickbait": "False",
+        "clickbait": "Unknown",
         "conspiracy": "False",
         "reliable": "True",
         "bias": "Unknown",
-        "hate": "False",
+        "hate": "Unknown",
         "junksci": "False",
         "political": "Unknown",
         "unknown": "Unknown",

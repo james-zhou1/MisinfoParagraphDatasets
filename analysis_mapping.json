@@ -1,0 +1,47 @@
+{
+    "banfakenews": {
+        "date_column": "date",
+        "veracity_column": "veracity",
+        "content_column": "article_content"
+    },
+    "benjamin_political_news": {
+        "date_column": "N/A",
+        "veracity_column": "veracity",
+        "content_column": "article_content"
+    },
+    "fa_kes": {
+        "date_column": "date",
+        "veracity_column": "veracity",
+        "content_column": "article_content"
+    },
+    "fake_news_corpus": {
+        "date_column": "N/A",
+        "veracity_column": "veracity",
+        "content_column": "article_content"
+    },
+    "fakenewsamt": {
+        "date_column": "N/A",
+        "veracity_column": "veracity",
+        "content_column": "article_content"
+    },
+    "isot_fake_news": {
+        "date_column": "date",
+        "veracity_column": "veracity",
+        "content_column": "article_content"
+    },
+    "celebrity": {
+        "date_column": "N/A",
+        "veracity_column": "veracity",
+        "content_column": "article_content"
+    },
+    "ct_fan": {
+        "date_column": "N/A",
+        "veracity_column": "veracity",
+        "content_column": "article_content"
+    },
+    "ti_cnn": {
+        "date_column": "date",
+        "veracity_column": "veracity",
+        "content_column": "article_content"
+    }
+}
