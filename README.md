@@ -9,7 +9,7 @@
 - 1_data_paragraph.csv: This is the paragraph dataset.
 - 2_data_paragraph_veracity.csv: This is the paragraph dataset with veracity mappings.
 - 3_data_paragraph_veracity_prepared.csv: This is the paragraph dataset with veracity mappings and prepared with the preprocessing script.
-- 4_data_paragraph_veracity_prepared_flagged_{type}.csv: This is the paragraph dataset with veracity mappings and prepared and flagged with the flagging script.
+- 4_data_paragraph_veracity_prepared_flagged_{type}.parquet: This is the paragraph dataset with veracity mappings and prepared and flagged with the flagging script.
 
 #   Pipeline
 - 0_pipeline.ipynb: This converts the full dataset into the paragraph dataset.
